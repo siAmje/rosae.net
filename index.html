@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" href="style/styleConnexion.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script>
+ $(function() {
+$( "button:first" ).button({
+icons: {
+primary: "ui-icon-locked"
+}})});
+</script>
+<title>Bienvenu sur l'intranet de R.O.S.A.E - Audit & Action</title>
+</head>
+
+<body>
+    <div id="logo"> </div>
+	<h1>BIENVENU SUR L'INTRANET DE R.O.S.A.E</h1>
+    <div id="saisieIdentifiants">
+        <p><label for="champLogin">Login:</label> <input type="text" id="champLogin" /></p>
+        <p><label for="champMDP">Mot de Passe:</label><input  type="password" id="champMDP"/></p>
+		<button id="boutonConnexion"> Connexion</button>
+		<a href="#" id="mdpPerdu">Vous avez oublié votre mot de passe?</a>
+    </div>
+</body>
+</html>
